@@ -53,11 +53,11 @@
             </button>
             <nav class="site-nav" id="site-nav" aria-label="Primary">
                 <a href="#about">About</a>
-                <a href="#work">Work</a>
                 <a href="#expertise">Expertise</a>
+                <a href="#work">Work</a>
                 <a href="#experience">Experience</a>
                 <a href="#writing">Writing</a>
-                <a href="#contact" class="btn btn-primary btn-sm">Get in touch</a>
+                <a href="#engage" class="btn btn-primary btn-sm">Work with me</a>
             </nav>
         </div>
     </header>
@@ -76,7 +76,7 @@
                         I lead a team of data scientists at Talentica Software and advise teams on turning AI into shipped products.
                     </p>
                     <div class="hero-actions">
-                        <a href="#contact" class="btn btn-primary">Work with me</a>
+                        <a href="#engage" class="btn btn-primary">Work with me</a>
                         <a href="Alakh_Sharma_Resume.pdf" class="btn btn-ghost js-resume" target="_blank" rel="noopener">View CV</a>
                     </div>
                     <ul class="social-row" aria-label="Profiles">
@@ -129,7 +129,7 @@
                     <p>
                         I want to keep growing as a <strong>Principal Data Scientist</strong>: setting technical direction for ML
                         organisations, mentoring the next generation of scientists, and helping companies make sound, measurable
-                        AI bets. That's also why I take on selected <a href="#expertise">advisory work</a>.
+                        AI bets. That's also why I take on selected <a href="#engage">advisory work</a>.
                     </p>
                     <ul class="pill-list" aria-label="Focus areas">
                         <li>LLM fine-tuning &amp; distillation</li>
@@ -143,8 +143,47 @@
             </div>
         </section>
 
+        <!-- Expertise -->
+        <section class="section section-alt" id="expertise">
+            <div class="container">
+                <p class="kicker">Expertise</p>
+                <h2>Four areas I've shipped in production</h2>
+                <p class="section-intro">Pick an area to jump to the case studies behind it.</p>
+                <div class="cards-4">
+                    <article class="card">
+                        <span class="card-index">01</span>
+                        <h3>LLMs &amp; Agents</h3>
+                        <p>Multi-agent orchestration, RAG over millions of chunks, NL2SQL, and QLoRA fine-tuning that replaces frontier APIs with self-hosted SLMs.</p>
+                        <p class="card-meta">LangGraph · LangFuse · vLLM · PGVector · QLoRA/PEFT</p>
+                        <a class="card-link" href="#work" data-filter-link="llm">See 3 case studies →</a>
+                    </article>
+                    <article class="card">
+                        <span class="card-index">02</span>
+                        <h3>Generative Video &amp; Vision</h3>
+                        <p>Talking-head and pose-transfer pipelines on 14B diffusion models, plus real-time detection, tracking, and document understanding.</p>
+                        <p class="card-meta">PyTorch · Wan2.2 · FSDP · DeepSpeed Ulysses · YOLO · MediaPipe</p>
+                        <a class="card-link" href="#work" data-filter-link="vision">See 3 case studies →</a>
+                    </article>
+                    <article class="card">
+                        <span class="card-index">03</span>
+                        <h3>Ad Tech &amp; Classical ML</h3>
+                        <p>Real-time floor pricing and bid filtering under millisecond budgets, forecasting, survival analysis, and anomaly detection, validated with A/B tests.</p>
+                        <p class="card-meta">CatBoost · Multi-armed bandits · A/B testing · Survival analysis</p>
+                        <a class="card-link" href="#work" data-filter-link="ml">See 4 case studies →</a>
+                    </article>
+                    <article class="card">
+                        <span class="card-index">04</span>
+                        <h3>ML Platforms &amp; Serving</h3>
+                        <p>Multi-GPU training and inference, drift monitoring with automated retraining, and cost-aware serving on AWS and GCP. It runs underneath all of the above.</p>
+                        <p class="card-meta">DDP · ONNX · Docker · PySpark · AWS · GCP · RunPod</p>
+                        <a class="card-link" href="#work" data-filter-link="all">See all case studies →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
         <!-- Selected work -->
-        <section class="section section-alt" id="work">
+        <section class="section" id="work">
             <div class="container">
                 <p class="kicker">Selected work</p>
                 <h2>Case studies</h2>
@@ -152,9 +191,9 @@
 
                 <div class="filters" role="group" aria-label="Filter case studies">
                     <button class="filter is-active" data-filter="all" aria-pressed="true">All</button>
-                    <button class="filter" data-filter="genai" aria-pressed="false">Generative AI</button>
-                    <button class="filter" data-filter="cv" aria-pressed="false">Computer Vision</button>
-                    <button class="filter" data-filter="ml" aria-pressed="false">Classical ML</button>
+                    <button class="filter" data-filter="llm" aria-pressed="false">LLMs &amp; Agents</button>
+                    <button class="filter" data-filter="vision" aria-pressed="false">Video &amp; Vision</button>
+                    <button class="filter" data-filter="ml" aria-pressed="false">Ad Tech &amp; Classical ML</button>
                 </div>
 
                 <div class="case-grid">
@@ -181,7 +220,7 @@
                         <p class="case-stack">CatBoost · Multi-armed bandits · A/B testing</p>
                     </article>
 
-                    <article class="case" data-cat="genai">
+                    <article class="case" data-cat="llm">
                         <header>
                             <p class="case-tag">Generative AI · Agents</p>
                             <h3>Multi-agent AI system for support automation</h3>
@@ -202,7 +241,7 @@
                         <p class="case-stack">LangGraph · LangChain · LangFuse</p>
                     </article>
 
-                    <article class="case" data-cat="genai">
+                    <article class="case" data-cat="llm">
                         <header>
                             <p class="case-tag">Generative AI · SLM fine-tuning</p>
                             <h3>Resume intelligence: CV parsing &amp; JD relevance scoring</h3>
@@ -225,7 +264,7 @@
                         <p class="case-stack">Qwen3 · QLoRA · PEFT · vLLM · AWS</p>
                     </article>
 
-                    <article class="case" data-cat="cv genai">
+                    <article class="case" data-cat="vision">
                         <header>
                             <p class="case-tag">Generative Video · Computer Vision</p>
                             <h3>Expression &amp; pose transfer: talking-head animation</h3>
@@ -247,7 +286,7 @@
                         <p class="case-stack">Wan2.2-Animate · FSDP · DeepSpeed Ulysses · DDP · MediaPipe · RIFE</p>
                     </article>
 
-                    <article class="case" data-cat="genai">
+                    <article class="case" data-cat="llm">
                         <header>
                             <p class="case-tag">Generative AI · RAG</p>
                             <h3>Multimodal RAG &amp; NL2SQL enterprise assistant</h3>
@@ -269,7 +308,7 @@
                         <p class="case-stack">PGVector · BGE-reranker-v2 · PostgreSQL · LLMs</p>
                     </article>
 
-                    <article class="case" data-cat="cv">
+                    <article class="case" data-cat="vision">
                         <header>
                             <p class="case-tag">Computer Vision · Privacy</p>
                             <h3>Real-time document alignment &amp; ID masking</h3>
@@ -332,7 +371,7 @@
                         <p class="case-stack">Survival analysis · Cox PH · Python</p>
                     </article>
 
-                    <article class="case" data-cat="cv">
+                    <article class="case" data-cat="vision">
                         <header>
                             <p class="case-tag">Computer Vision · Video</p>
                             <h3>Real-time multi-object tracking</h3>
@@ -376,48 +415,17 @@
             </div>
         </section>
 
-        <!-- Expertise & advisory -->
-        <section class="section section-dark" id="expertise">
+        <!-- Work with me -->
+        <section class="section section-dark" id="engage">
             <div class="container">
-                <p class="kicker">Expertise &amp; advisory</p>
-                <h2>Where I can help</h2>
+                <p class="kicker">Work with me</p>
+                <h2>Bring in a Principal-level ML lead, without the full-time hire</h2>
                 <p class="section-intro">
-                    Four areas where I've shipped ML to production. I work in them as a principal-level lead or as an advisor
-                    to founders, CTOs, and data teams, and every engagement is scoped around a measurable outcome.
+                    I work with founders, CTOs, and data teams who need a senior ML voice to get a decision right or a system into production.
+                    Every engagement is scoped around a measurable outcome.
                 </p>
 
-                <div class="cards-4">
-                    <article class="card card-dark">
-                        <span class="card-index">01</span>
-                        <h3>LLMs &amp; Agents</h3>
-                        <p>Multi-agent orchestration, RAG over millions of chunks, NL2SQL, and QLoRA fine-tuning that replaces frontier APIs with self-hosted SLMs.</p>
-                        <p class="card-proof">70% unescalated support · 2× cheaper serving · 87% NL2SQL accuracy</p>
-                        <p class="card-meta">LangGraph · LangFuse · vLLM · PGVector · QLoRA/PEFT</p>
-                    </article>
-                    <article class="card card-dark">
-                        <span class="card-index">02</span>
-                        <h3>Generative Video &amp; Vision</h3>
-                        <p>Talking-head and pose-transfer pipelines on 14B diffusion models, plus real-time detection, tracking, and document understanding.</p>
-                        <p class="card-proof">47% faster diffusion video · 99.5% PII recall</p>
-                        <p class="card-meta">PyTorch · Wan2.2 · FSDP · DeepSpeed Ulysses · YOLO · MediaPipe</p>
-                    </article>
-                    <article class="card card-dark">
-                        <span class="card-index">03</span>
-                        <h3>Ad Tech &amp; Decisioning</h3>
-                        <p>Real-time floor pricing and bid filtering under millisecond budgets, validated with closed-loop A/B testing.</p>
-                        <p class="card-proof">10%+ revenue · 30% infra savings at 50B+ req/day</p>
-                        <p class="card-meta">CatBoost · Multi-armed bandits · A/B testing · Survival analysis</p>
-                    </article>
-                    <article class="card card-dark">
-                        <span class="card-index">04</span>
-                        <h3>ML Platforms &amp; Serving</h3>
-                        <p>Multi-GPU training and inference, drift monitoring with automated retraining, and cost-aware serving on AWS and GCP.</p>
-                        <p class="card-proof">14B model on 4 GPUs · auto-retraining on drift</p>
-                        <p class="card-meta">DDP · ONNX · Docker · PySpark · AWS · GCP · RunPod</p>
-                    </article>
-                </div>
-
-                <h3 class="subhead">Ways to engage</h3>
+                <h3 class="subhead">What I can take on</h3>
                 <ul class="engage">
                     <li><h4>Strategy &amp; feasibility</h4><p>Is this an LLM problem, a classical ML problem, or not an ML problem at all? A clear build/buy/skip call with cost and accuracy estimates.</p></li>
                     <li><h4>Architecture &amp; build</h4><p>Hands-on design and delivery, with evaluation and observability built in from day one rather than bolted on after launch.</p></li>
@@ -425,6 +433,7 @@
                     <li><h4>Reviews &amp; mentoring</h4><p>Architecture reviews, experimentation design, and coaching so your team can run the system confidently after I step back.</p></li>
                 </ul>
 
+                <h3 class="subhead">How an engagement runs</h3>
                 <ol class="process">
                     <li><span>1</span><div><h4>Diagnose</h4><p>Business goal, data, constraints, and the metric that defines success.</p></div></li>
                     <li><span>2</span><div><h4>Prototype</h4><p>A fast baseline against an honest evaluation set before anyone scales anything.</p></div></li>
@@ -433,7 +442,7 @@
                 </ol>
 
                 <div class="cta-row">
-                    <a href="mailto:alakhsharmacs@gmail.com?subject=Advisory%20enquiry" class="btn btn-light">Discuss an engagement</a>
+                    <a href="#contact" class="btn btn-light" data-topic="Advisory / consulting engagement">Discuss an engagement</a>
                 </div>
             </div>
         </section>
@@ -446,75 +455,69 @@
                     <h2>From backend engineering to principal ML.</h2>
                     <a href="Alakh_Sharma_Resume.pdf" class="btn btn-ghost js-resume" target="_blank" rel="noopener">View full CV</a>
                 </div>
-                <ol class="timeline">
-                    <li>
-                        <p class="when">Oct 2019 – Present · Pune</p>
-                        <h3>Principal Software Engineer – Data Science</h3>
-                        <p class="org">Talentica Software Pvt. Ltd.</p>
-                        <p>Lead a team of five data scientists delivering production ML for product companies across ad tech, HR tech, and generative media.</p>
-                        <ul>
-                            <li>Real-time bidding floor pricing and bid filtering at 50B+ requests/day (10%+ revenue, 30% infra savings).</li>
-                            <li>Multi-agent LangGraph support platform for 500K users/month (70% unescalated resolution).</li>
-                            <li>Self-hosted Qwen3 SLMs replacing a frontier LLM at 2× lower cost.</li>
-                            <li>Distributed 14B diffusion-video inference with 47% latency reduction.</li>
-                            <li>Multimodal RAG, NL2SQL, document vision, forecasting, and tracking systems.</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p class="when">Jul 2018 – Oct 2019 · Bangalore</p>
-                        <h3>Software Engineer 2</h3>
-                        <p class="org">Citrix R&amp;D India Pvt. Ltd.</p>
-                        <ul>
-                            <li>Built Isolation Forest anomaly detection on server response telemetry for Citrix Analytics, cutting false positives by 30%.</li>
-                            <li>Shipped NetScaler features, including auto-scale service group support and IPset support for GSLB virtual servers.</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p class="when">Jul 2016 – Jun 2018 · Bangalore</p>
-                        <h3>M.Tech, Computer Science &amp; Automation (Machine Learning)</h3>
-                        <p class="org">Indian Institute of Science (IISc)</p>
-                        <ul>
-                            <li>Studied multi-class imbalance: benchmarked SMOTE resampling against cost-sensitive learning on macro-F1.</li>
-                            <li>Implemented hard-debiasing (Bolukbasi et al.) to reduce gender bias in word embeddings.</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p class="when">Jul 2013 – Jul 2015 · Jaipur</p>
-                        <h3>Software Engineer</h3>
-                        <p class="org">Soft Solutions</p>
-                        <ul>
-                            <li>Led backend development (Java, MySQL) and on-premise deployment of school and inventory management systems for small businesses.</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p class="when">Jul 2009 – Jun 2013 · Kota</p>
-                        <h3>B.Tech, Computer Science Engineering</h3>
-                        <p class="org">Rajasthan Technical University</p>
-                    </li>
-                </ol>
-            </div>
-        </section>
+                <div>
+                    <ol class="career">
+                        <li>
+                            <div class="career-head">
+                                <h3>Talentica Software</h3>
+                                <p class="when">Oct 2019 – Present · Pune</p>
+                            </div>
+                            <p>Lead a team of five data scientists delivering production ML across LLM agents, generative video, and ad tech. See the <a href="#work">case studies</a>.</p>
+                            <ol class="ladder" aria-label="Roles at Talentica, most recent first">
+                                <li><span class="role">Principal Software Engineer – Data Science</span><span class="when">Oct 2023 – Present</span></li>
+                                <li><span class="role">Senior Software Engineer 2 – Data Science</span><span class="when">Oct 2020 – Oct 2023</span></li>
+                                <li><span class="role">Senior Software Engineer 1 – Data Science</span><span class="when">Mar 2020 – Oct 2020</span></li>
+                                <li><span class="role">Software Engineer 2 – Data Science</span><span class="when">Oct 2019 – Mar 2020</span></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <div class="career-head">
+                                <h3>Citrix R&amp;D India <span class="role-inline">· Software Engineer 2</span></h3>
+                                <p class="when">Jul 2018 – Oct 2019 · Bangalore</p>
+                            </div>
+                            <p>Anomaly detection for Citrix Analytics (30% fewer false positives) and NetScaler features.</p>
+                        </li>
+                        <li>
+                            <div class="career-head">
+                                <h3>Soft Solutions <span class="role-inline">· Software Engineer</span></h3>
+                                <p class="when">Jul 2013 – Jul 2015 · Jaipur</p>
+                            </div>
+                            <p>Java and MySQL backends, deployed on-premise for small businesses.</p>
+                        </li>
+                    </ol>
 
-        <!-- Skills -->
-        <section class="section section-alt" id="skills">
-            <div class="container">
-                <p class="kicker">Toolkit</p>
-                <h2>Skills</h2>
-                <div class="skills-grid">
-                    <div><h3>LLMs</h3><p>Fine-tuning (QLoRA, PEFT), LLM distillation · familiar with RLHF, PPO, DPO, GRPO</p></div>
-                    <div><h3>Agentic AI</h3><p>RAG architectures, multi-agent systems, LangChain, LangGraph, LangFuse</p></div>
-                    <div><h3>Machine Learning</h3><p>CatBoost, XGBoost, multi-armed bandits, A/B testing, survival analysis, statistics</p></div>
-                    <div><h3>Deep Learning &amp; CV</h3><p>PyTorch, Transformers, diffusion models, YOLO, MediaPipe, OpenCV</p></div>
-                    <div><h3>Distributed &amp; Serving</h3><p>DDP, FSDP, DeepSpeed Ulysses, multi-GPU inference, vLLM, ONNX</p></div>
-                    <div><h3>Cloud &amp; Data</h3><p>AWS, GCP (AutoML, BigQuery), RunPod, Docker, PySpark, PostgreSQL, PGVector</p></div>
-                    <div><h3>Languages</h3><p>Python, SQL, Java</p></div>
-                    <div><h3>Leadership</h3><p>Leading a 5-person DS team, technical direction, stakeholder communication, mentoring</p></div>
+                    <h3 class="subhead-sm">Education</h3>
+                    <ul class="edu">
+                        <li>
+                            <div class="career-head">
+                                <p><strong>M.Tech, Computer Science &amp; Automation (ML)</strong> · Indian Institute of Science, Bangalore</p>
+                                <p class="when">2016 – 2018</p>
+                            </div>
+                            <p>Research on multi-class imbalance and debiasing word embeddings. AIR 45, GATE 2016 (CS).</p>
+                        </li>
+                        <li>
+                            <div class="career-head">
+                                <p><strong>B.Tech, Computer Science Engineering</strong> · Rajasthan Technical University</p>
+                                <p class="when">2009 – 2013</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <h3 class="subhead-sm">Toolkit</h3>
+                    <dl class="toolkit">
+                        <div><dt>LLMs &amp; agents</dt><dd>QLoRA/PEFT, distillation, RAG, LangGraph, LangChain, LangFuse · familiar with RLHF, PPO, DPO, GRPO</dd></div>
+                        <div><dt>ML &amp; stats</dt><dd>CatBoost, XGBoost, multi-armed bandits, A/B testing, survival analysis</dd></div>
+                        <div><dt>Deep learning &amp; CV</dt><dd>PyTorch, Transformers, diffusion models, YOLO, MediaPipe, OpenCV</dd></div>
+                        <div><dt>Distributed &amp; serving</dt><dd>DDP, FSDP, DeepSpeed Ulysses, vLLM, ONNX</dd></div>
+                        <div><dt>Cloud &amp; data</dt><dd>AWS, GCP (AutoML, BigQuery), RunPod, Docker, PySpark, PostgreSQL, PGVector</dd></div>
+                        <div><dt>Languages</dt><dd>Python, SQL, Java</dd></div>
+                    </dl>
                 </div>
             </div>
         </section>
 
         <!-- Writing -->
-        <section class="section" id="writing">
+        <section class="section section-alt" id="writing">
             <div class="container">
                 <p class="kicker">Writing</p>
                 <h2>Published articles</h2>
@@ -559,10 +562,10 @@
         </section>
 
         <!-- Testimonial -->
-        <section class="section section-alt" id="testimonial">
+        <section class="section" id="testimonial">
             <div class="container">
-                <p class="kicker">What colleagues say</p>
-                <h2>Colleague references</h2>
+                <p class="kicker">Testimonials</p>
+                <h2>References</h2>
                 <div class="quotes">
                     <blockquote class="quote">
                         <p>“Alakh has a very good hold on Machine Learning concepts, and has helped me many times. He is a fast learner, quickly grasping new developments in the field. He keeps reading about new developments in the field and is, hence, updated on the state of the art techniques. He has also been published in various respected publications.”</p>
@@ -584,19 +587,45 @@
         </section>
 
         <!-- Contact -->
-        <section class="section" id="contact">
-            <div class="container narrow center">
-                <p class="kicker">Contact</p>
-                <h2>Have a hard ML problem? Let's talk.</h2>
-                <p class="section-intro">
-                    For principal or leadership roles in data science, advisory engagements, or speaking and writing,
-                    email is the fastest way to reach me.
-                </p>
-                <div class="contact-actions">
-                    <a href="mailto:alakhsharmacs@gmail.com" class="btn btn-primary">alakhsharmacs@gmail.com</a>
-                    <a href="https://linkedin.com/in/alakhsharma" class="btn btn-ghost" target="_blank" rel="noopener">Connect on LinkedIn</a>
-                    <a href="https://github.com/alakhsharmaa" class="btn btn-ghost" target="_blank" rel="noopener">GitHub</a>
+        <section class="section section-alt" id="contact">
+            <div class="container contact-grid">
+                <div>
+                    <p class="kicker">Contact</p>
+                    <h2>Have a hard ML problem? Let's talk.</h2>
+                    <p class="section-intro">
+                        For principal or leadership roles in data science, advisory engagements, or speaking and writing,
+                        send me a message here and it comes straight to my inbox.
+                    </p>
+                    <ul class="contact-links">
+                        <li><span>Email</span><a href="mailto:alakhsharmacs@gmail.com">alakhsharmacs@gmail.com</a></li>
+                        <li><span>LinkedIn</span><a href="https://linkedin.com/in/alakhsharma" target="_blank" rel="noopener">linkedin.com/in/alakhsharma</a></li>
+                        <li><span>GitHub</span><a href="https://github.com/alakhsharmaa" target="_blank" rel="noopener">github.com/alakhsharmaa</a></li>
+                        <li><span>Based in</span>Pune, India · working with teams worldwide</li>
+                    </ul>
                 </div>
+
+                <form class="contact-form" id="contact-form" action="https://formsubmit.co/alakhsharmacs@gmail.com" method="POST">
+                    <div class="field-row">
+                        <label>Name<input type="text" name="name" autocomplete="name" required></label>
+                        <label>Email<input type="email" name="email" autocomplete="email" required></label>
+                    </div>
+                    <label>What's this about?
+                        <select name="topic" id="contact-topic">
+                            <option>Principal / leadership role</option>
+                            <option>Advisory / consulting engagement</option>
+                            <option>Speaking or writing</option>
+                            <option>Something else</option>
+                        </select>
+                    </label>
+                    <label>Message<textarea name="message" rows="6" required placeholder="A few lines on the problem, the team, and the timeline."></textarea></label>
+                    <!-- FormSubmit settings; _honey is a spam trap that people never see -->
+                    <input type="hidden" name="_subject" value="New message from your portfolio">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+                    <button type="submit" class="btn btn-primary">Send message</button>
+                    <p class="form-status" role="status" aria-live="polite"></p>
+                </form>
             </div>
         </section>
     </main>
