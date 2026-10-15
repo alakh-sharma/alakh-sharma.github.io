@@ -1,681 +1,632 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
-    <title>Alakh Sharma</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alakh Sharma — Principal Data Scientist &amp; ML Engineer</title>
+    <meta name="description" content="Alakh Sharma — Principal Data Scientist / ML Engineer (M.Tech, IISc Bangalore) with 10 years building production ML: LLMs & agents, generative video, and ad tech. Available for advisory and consulting.">
+    <meta name="keywords" content="Principal Data Scientist, ML Engineer, LLM, AI Agents, RAG, Fine-tuning, Generative Video, Diffusion, Real-Time Bidding, Ad Tech, AI Consulting">
+    <meta name="author" content="Alakh Sharma">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Alakh Sharma — Principal Data Scientist & ML Engineer">
+    <meta property="og:description" content="Production ML across LLMs & agents, generative video, and ad tech. 10 years, IISc Bangalore. Advisory & consulting.">
+    <meta property="og:url" content="https://alakh-sharma.github.io/">
+    <meta property="og:image" content="https://alakh-sharma.github.io/img/alakh-portrait.jpg">
+    <meta name="theme-color" content="#0e6f78">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230e6f78'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='30' font-weight='700' text-anchor='middle' fill='white'%3EAS%3C/text%3E%3C/svg%3E">
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+    <link href="css/site.css" rel="stylesheet">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
-
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alakh Sharma",
+        "jobTitle": "Principal Data Scientist / ML Engineer",
+        "url": "https://alakh-sharma.github.io/",
+        "email": "mailto:alakhsharmacs@gmail.com",
+        "image": "https://alakh-sharma.github.io/img/alakh-portrait.jpg",
+        "address": { "@type": "PostalAddress", "addressLocality": "Pune", "addressCountry": "IN" },
+        "alumniOf": ["Indian Institute of Science, Bangalore", "Rajasthan Technical University"],
+        "worksFor": { "@type": "Organization", "name": "Talentica Software" },
+        "knowsAbout": ["Large Language Models", "AI Agents", "Retrieval-Augmented Generation", "Diffusion Models", "Computer Vision", "Real-Time Bidding", "Machine Learning"],
+        "sameAs": ["https://linkedin.com/in/alakhsharma", "https://github.com/alakhsharmaa"]
+    }
+    </script>
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="51">
-    <!-- Navbar Start -->
-    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
-        <a href="index.html" class="navbar-brand ml-lg-3">
-            <h1 class="m-0 display-5"><span class="text-primary">Alakh</span>Sharma</h1>
-        </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-            <div class="navbar-nav m-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">About</a>
-                <a href="#qualification" class="nav-item nav-link">Quality</a>
-                <!-- <a href="#skill" class="nav-item nav-link">Skill</a> -->
-                <a href="#projects" class="nav-item nav-link">Projects</a>
-                <!-- <a href="#portfolio" class="nav-item nav-link">Portfolio</a> -->
-                <a href="#testimonial" class="nav-item nav-link">Review</a>
-                <a href="#blog" class="nav-item nav-link">Blog</a>
-                <a href="#contact" class="nav-item nav-link">Contact</a>
-            </div>
-            <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Header -->
+    <header class="site-header" id="top">
+        <div class="container header-inner">
+            <a href="#top" class="brand" aria-label="Alakh Sharma, home">
+                <span class="brand-mark">AS</span>
+                <span class="brand-name">Alakh Sharma</span>
+            </a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="site-nav" id="site-nav" aria-label="Primary">
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#expertise">Expertise</a>
+                <a href="#experience">Experience</a>
+                <a href="#writing">Writing</a>
+                <a href="#contact" class="btn btn-primary btn-sm">Get in touch</a>
+            </nav>
         </div>
-    </nav>
-    <!-- Navbar End -->
+    </header>
 
+    <main id="main">
 
-    <!-- Video Modal Start -->
-   <!-- <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>        
-                    <!- - 16:9 aspect ratio - ->
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Principal Data Scientist · ML Engineer · Pune, India</p>
+                    <h1>I build production ML systems that move real business numbers.</h1>
+                    <p class="lede">
+                        Ten years taking ideas from whiteboard to production across <strong>LLMs &amp; agents</strong>,
+                        <strong>generative video</strong>, and <strong>ad tech</strong>, at scales up to 50B+ requests a day.
+                        I lead a team of data scientists at Talentica Software and advise teams on turning AI into shipped products.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary">Work with me</a>
+                        <a href="Alakh_Sharma_Resume.pdf" class="btn btn-ghost js-resume" target="_blank" rel="noopener">View CV</a>
                     </div>
+                    <ul class="social-row" aria-label="Profiles">
+                        <li><a href="https://linkedin.com/in/alakhsharma" target="_blank" rel="noopener">LinkedIn</a></li>
+                        <li><a href="https://github.com/alakhsharmaa" target="_blank" rel="noopener">GitHub</a></li>
+                        <li><a href="mailto:alakhsharmacs@gmail.com">alakhsharmacs@gmail.com</a></li>
+                    </ul>
                 </div>
+                <figure class="hero-photo">
+                    <img src="img/alakh-portrait.jpg" alt="Portrait of Alakh Sharma" width="720" height="900">
+                    <figcaption>
+                        <span class="dot" aria-hidden="true"></span>
+                        Open to advisory &amp; consulting engagements
+                    </figcaption>
+                </figure>
             </div>
-        </div>
-    </div>-->
-    <!-- Video Modal End -->
 
-
-    <!-- Header Start -->
-    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/alakh_profile.png" alt="">
-                </div>
-                <div class="col-lg-7 text-center text-lg-left">
-                    <h3 class="text-white font-weight-normal mb-3">I'm</h3>
-                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Alakh Sharma</h1>
-                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
-                    <div class="typed-text d-none">Data Scientist, Software Developer</div>
-                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <a href="https://drive.google.com/file/d/1c0Tfs3phNUE-LGoYrqlfzV8OxJkeWWfk/view?usp=sharing" class="btn btn-outline-light mr-5">Download CV</a>
-                        
-                        <!-- <button type="button" class="btn-play" data-toggle="modal"
-                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
-                            <span></span>
-                        </button>
-                        <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5> -->
-                    </div>
-                </div>
+            <div class="container">
+                <dl class="stats">
+                    <div><dt>10 yrs</dt><dd>building ML &amp; software</dd></div>
+                    <div><dt>50B+</dt><dd>bid requests/day served by my pricing engine</dd></div>
+                    <div><dt>500K</dt><dd>users/month on a multi-agent support system</dd></div>
+                    <div><dt>70%</dt><dd>of conversations resolved without escalation</dd></div>
+                    <div><dt>47%</dt><dd>lower latency on 14B diffusion-video inference</dd></div>
+                    <div><dt>AIR 45</dt><dd>GATE 2016 (CS) · M.Tech, IISc</dd></div>
+                </dl>
             </div>
-        </div>
-    </div>
-    <!-- Header End -->
+        </section>
 
-
-    <!-- About Start -->
-    <div class="container-fluid py-5" id="about">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
-                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid rounded w-100" src="img/alakh_profile.png" alt="">
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container two-col">
+                <div>
+                    <p class="kicker">About</p>
+                    <h2>Research depth, production discipline.</h2>
                 </div>
-                <div class="col-lg-7">
-                    <h3 class="mb-4">Data Scientist</h3>
-                    <p>I have completed a master's in Machine learning from IISc Bangalore. I have over 7 years of experience in software development and over 5 years of experience in solving real-world challenging problems. I worked on Real-time bidding, Natural language processing, Computer Vision, Applied Machine learning, Deep learning, and Reinforcement learning-related application.</p>
-                    <div class="row mb-3">
-                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Alakh Sharma</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">15 August 1994</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Master</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">7 Years</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+91 7737263588</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">alakhsharmacs@gmail.com</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Pratap Nagar, Jaipur, India</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
-                    </div>
-                    <a href="" class="btn btn-outline-primary mr-4">Hire Me</a>
-                    <a href="" class="btn btn-outline-primary">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-
-    <!-- Qualification Start -->
-    <div class="container-fluid py-5" id="qualification">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
-            </div>
-            <div class="row align-items-top">
-<!-- Experience -->
-                <div class="col-lg-6">
-                    <h3 class="mb-4">My Expericence</h3>
-                    <div class="border-left border-primary pt-2 pl-4 ml-2">
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Data Scientist</h5>
-                            <p class="mb-2"><strong>Talentica Softwares pvt ltd</strong> | <small>Octomber, 2019 - Present</small></p>
-<!--                             
-                            <p><ul>
-                                <li>Implemented topic modeling and graph neural networks for resume filtering, achieving an 80% accuracy and 85% recall rate.</li>
-                                <li>Successfully applied real-time object tracking and detection techniques using Strong Sort and YOLO v4, optimizing computation with correlation filters.</li>
-                                <li>Leveraged reinforcement learning to estimate real-time bidding floor prices, resulting in a 10% increase in revenue.</li>
-                                <li>Developed a Deep CNN model for emotional voice cloning in Hindi, mapping characters to audio.</li>
-                                <li>Utilized GCP AutoML for dealer performance prediction and applied survival analysis to optimize email marketing broadcast times.</li>
-                            </ul></p>
-                             -->
-                             
-                            <p>
-                                <ol>
-                                    <li>
-                                        <h6>Resume Filtering with Topic Modeling and Graph Neural Networks:</h6>
-                                        <ul>
-                                            <li>Leveraged top2vec for topic distribution and graph neural networks for link prediction.</li>
-                                            <li>Achieved an impressive 80% accuracy with an 85% recall rate for the positive class.</li>
-                                            <li>Developed an end-to-end pipeline for the production environment.</li>
-                                        </ul>
-                                    </li>
-                            
-                                    <li>
-                                        <h6>Real-Time Object Tracking and Detection:</h6>
-                                        <ul>
-                                            <li>Implemented Strong Sort for object tracking and YOLO v4 for object detection.</li>
-                                            <li>Optimized computation in constrained environments with correlation filters.</li>
-                                            <li>Successfully applied these techniques to real-time video object tracking.</li>
-                                        </ul>
-                                    </li>
-                            
-                                    <li>
-                                        <h6>Reinforcement Learning for Real-Time Bidding:</h6>
-                                        <ul>
-                                            <li>Employed reinforcement learning for estimating real-time bidding floor prices.</li>
-                                            <li>Created a state-action environment for bidders and ad-requests.</li>
-                                            <li>Enhanced the system's performance by incorporating a multi-agent Q-learning model.</li>
-                                            <li>Achieved predictions within 3-5 milliseconds, leading to a 10% increase in overall revenue.</li>
-                                        </ul>
-                                    </li>
-                            
-                                    <li>
-                                        <h6>Emotional Voice Cloning TTS:</h6>
-                                        <ul>
-                                            <li>Developed a Deep CNN model for cloning the emotional voice of a Hindi artist.</li>
-                                            <li>Trained the model to map Hindi characters to audio, enabling emotional voice cloning.</li>
-                                        </ul>
-                                    </li>
-                            
-                                    <li>
-                                        <h6>Dealer Performance Prediction:</h6>
-                                        <ul>
-                                            <li>Utilized GCP AutoML to build a data pipeline, train models, and deploy them.</li>
-                                            <li>Expedited initial model training with bigqueryML.</li>
-                                            <li>Predicted dealer performance based on geographical, religious, census, and historical data.</li>
-                                        </ul>
-                                    </li>
-                            
-                                    <li>
-                                        <h6>Email Marketing Broadcast Time Optimization:</h6>
-                                        <ul>
-                                            <li>Applied Survival Analysis, Email Marketing, and Time-to-Event analysis techniques.</li>
-                                            <li>Improved open rates and reduced open time differences for email marketing broadcasts.</li>
-                                        </ul>
-                                    </li>
-                            
-                                    <li>
-                                        <h6>Context-Based Document Classification and Entity Extraction:</h6>
-                                        <ul>
-                                            <li>Classified legal documents effectively using clustering and one-class classification methods.</li>
-                                            <li>Extracted crucial information such as dates, names, amounts from emails and bank receipts.</li>
-                                        </ul>
-                                    </li>
-                            
-                                    <li>
-                                        <h6>User-Based Recommendation with Non-Negative Matrix Factorization:</h6>
-                                        <ul>
-                                            <li>Implemented a user-based recommendation system using Non-Negative Matrix Factorization.</li>
-                                        </ul>
-                                    </li>
-                                </ol>
-                            </p>
-                    </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Software Engineer 2</h5>
-                            <p class="mb-2"><strong>Citrix R&D India Pvt. ltd., Bangalore</strong> | <small>July, 2018 - September, 2019</small></p>
-                            <p>
-                                <ul style=“list-style-type:disc”>
-                                    <li>Worked in citrix Analytics.</li>
-                                    <li>Anomaly detection in server response data.</li>
-                                    <li>DBS Auto-scale service group support for server in Netscaler.</li>
-                                    <li>IPset Support For GSLB Vserver</li>
-                                </ul>
-                            </p>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Software Engineer</h5>
-                            <p class="mb-2"><strong>Soft Solutions, Jaipur</strong> | <small>July, 2013 - July, 2015</small></p>
-                            <p>
-                                <ul style=“list-style-type:disc”>
-                                    <li>Developed school management projects in Java with databases.</li>
-                                    <li>Developed and deployed inventory management projects.</li>
-                                    <li>Responsible for deploying on client servers, backend development, and database handling.</li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-<!-- Education -->
-                <div class="col-lg-6">
-                    <h3 class="mb-4">My Education</h3>
-                    <div class="border-left border-primary pt-2 pl-4 ml-2">
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">M.Tech. in Machine Learning</h5>
-                            <p class="mb-2"><strong>Indian Institute of Science, Bangalore</strong> | <small>July, 2016 - June, 2018</small></p>
-                            <p>During my master's program, I extensively explored the multi-class imbalance problem in machine learning. This issue arises when data exhibits bias, leading to suboptimal algorithm performance. In a dedicated project, I devised innovative approaches to effectively address this challenge. By developing and implementing strategies to mitigate bias in machine learning datasets, I gained valuable insights into enhancing algorithm performance, contributing to a more comprehensive understanding of data-driven solutions within the field.</p>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">B.Tech. In Computer Science & Engineering</h5>
-                            <p class="mb-2"><strong>Rajasthan Technical University</strong> | <small>July, 2009 - June, 2013</small></p>
-                            <p>During my B.Tech program, I embarked on a journey that laid the foundation for my passion and expertise in the field of computer science and machine learning. One notable achievement during this period was my utilization of the Viola-Jones face detection algorithm. This project not only demonstrated my technical skills but also provided valuable insights into the world of computer vision and image processing.</p>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-    <!-- Qualification End -->
-
-
-    <!-- Skill Start -->
-    <div class="container-fluid py-5" id="skill">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
-                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Python</h6>
-                            <h6 class="font-weight-bold">95%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Machine Learning</h6>
-                            <h6 class="font-weight-bold">85%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Natural Language Processing</h6>
-                            <h6 class="font-weight-bold">90%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Computer Vision</h6>
-                            <h6 class="font-weight-bold">90%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">SQL</h6>
-                            <h6 class="font-weight-bold">95%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Cloud: GCP/AWS</h6>
-                            <h6 class="font-weight-bold">85%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Skill End -->
-
-
-    <!-- Projects Start -->
-    <!-- TODO projects read more for description -->
-    <div class="container-fluid pt-5" id="projects">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service</h1>
-                <h1 class="position-absolute text-uppercase text-primary">My Projects</h1>
-            </div>
-            <div class="row pb-3">
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">JD-Resume Recommendation</h4>
-                    </div>
-                    <p>We utilized top2vec for topic modeling and Graph Neural Networks for node2vec and link prediction, achieving an impressive 80% accuracy and 85% recall for the positive class in our resume matching project. To ensure practicality, we created a production-ready end-to-end pipeline for seamless deployment.</p>
-                    <!-- <a class="border-bottom border-primary text-decoration-none" href="">Read More</a> -->
-                </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Voice Cloning</h4>
-                    </div>
-                    <p>Leveraged pre-trained Deep CNN model for emotional voice cloning of a Hindi artist, enabling Text-to-Speech synthesis. Trained a model specifically for Hindi characters, ensuring accurate character-to-audio mapping for authentic voice replication.</p>
-                    <!-- <a class="border-bottom border-primary text-decoration-none" href="">Read More</a> -->
-                </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Real Time Bidding</h4>
-                    </div>
-                    <p>Implemented RL-based real-time bidding floor price estimation, enhancing the pipeline with multiagent Q-Learning and Deep Q-Learning for added features and complexity handling. Achieved sub-5 millisecond prediction time and realized a 10% boost in overall revenue.</p>
-                    <!-- <a class="border-bottom border-primary text-decoration-none" href="">Read More</a> -->
-                </div>
-                <!-- <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Voice Cloning</h4>
-                    </div>
-                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">SEO</h4>
-                    </div>
-                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Content Creating</h4>
-                    </div>
-                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
-                </div> -->
-            </div>
-        </div>
-    </div>
-    <!-- Services End -->
-
-
-    <!-- Portfolio Start -->
-    <!-- <div class="container-fluid pt-5 pb-3" id="portfolio">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
-                <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center mb-2">
-                    <ul class="list-inline mb-4" id="portfolio-flters">
-                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Design</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Development</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Marketing</li>
+                <div class="prose">
+                    <p>
+                        I'm a Principal Data Scientist with an M.Tech in Computer Science (Machine Learning) from the
+                        <strong>Indian Institute of Science, Bangalore</strong>. Over the last decade I've moved from backend engineering
+                        to leading ML end to end: framing the problem, picking the right model family, and owning latency,
+                        cost, and the metric the business actually cares about.
+                    </p>
+                    <p>
+                        Today I lead a team of five data scientists shipping multi-agent LLM platforms, fine-tuned small language models,
+                        distributed diffusion-video inference, and real-time bidding optimization. My work is deliberately broad:
+                        classical ML where a gradient-boosted model and a bandit beat a transformer, and frontier generative models
+                        where nothing else will do.
+                    </p>
+                    <p>
+                        I want to keep growing as a <strong>Principal Data Scientist</strong>: setting technical direction for ML
+                        organisations, mentoring the next generation of scientists, and helping companies make sound, measurable
+                        AI bets. That's also why I take on selected <a href="#expertise">advisory work</a>.
+                    </p>
+                    <ul class="pill-list" aria-label="Focus areas">
+                        <li>LLM fine-tuning &amp; distillation</li>
+                        <li>Multi-agent systems</li>
+                        <li>RAG &amp; NL2SQL</li>
+                        <li>Diffusion video</li>
+                        <li>Real-time bidding</li>
+                        <li>Experimentation &amp; A/B testing</li>
                     </ul>
                 </div>
             </div>
-            <div class="row portfolio-container">
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-1.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
+        </section>
+
+        <!-- Selected work -->
+        <section class="section section-alt" id="work">
+            <div class="container">
+                <p class="kicker">Selected work</p>
+                <h2>Case studies</h2>
+                <p class="section-intro">Each one started as a business problem, not a model. Open any tile for the challenge, approach, and results.</p>
+
+                <div class="filters" role="group" aria-label="Filter case studies">
+                    <button class="filter is-active" data-filter="all" aria-pressed="true">All</button>
+                    <button class="filter" data-filter="genai" aria-pressed="false">Generative AI</button>
+                    <button class="filter" data-filter="cv" aria-pressed="false">Computer Vision</button>
+                    <button class="filter" data-filter="ml" aria-pressed="false">Classical ML</button>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-2.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
+
+                <div class="case-grid">
+
+                    <article class="case" data-cat="ml">
+                        <header>
+                            <p class="case-tag">Ad Tech · Classical ML</p>
+                            <h3>Real-time bidding: bid filtering &amp; floor-price optimization</h3>
+                        </header>
+                        <ul class="case-metrics">
+                            <li><strong>10%+</strong> revenue uplift</li>
+                            <li><strong>40%</strong> low-value traffic filtered</li>
+                            <li><strong>30%</strong> infra cost cut</li>
+                        </ul>
+                        <p><span class="label">Challenge</span> Price ad inventory well and cut wasteful traffic across 50B+ bid requests a day from 100+ bidders, inside a hard latency budget.</p>
+                        <details>
+                            <summary>Approach &amp; outcome</summary>
+                            <ul>
+                                <li>Architected a real-time floor-pricing engine: a multi-armed bandit layer on top of CatBoost base-price regression.</li>
+                                <li>Built a CatBoost response-probability filter at <strong>1 ms p99</strong>, with a dynamic threshold that caps revenue loss at ~1%.</li>
+                                <li>Validated through closed-loop A/B testing with continuous recalibration, for a sustained 10%+ revenue uplift.</li>
+                            </ul>
+                        </details>
+                        <p class="case-stack">CatBoost · Multi-armed bandits · A/B testing</p>
+                    </article>
+
+                    <article class="case" data-cat="genai">
+                        <header>
+                            <p class="case-tag">Generative AI · Agents</p>
+                            <h3>Multi-agent AI system for support automation</h3>
+                        </header>
+                        <ul class="case-metrics">
+                            <li><strong>500K</strong> users / month</li>
+                            <li><strong>70%</strong> resolved unescalated</li>
+                        </ul>
+                        <p><span class="label">Challenge</span> Automate high-volume customer support without losing the safety net of human escalation.</p>
+                        <details>
+                            <summary>Approach &amp; outcome</summary>
+                            <ul>
+                                <li>Architected a production multi-agent system on LangGraph: an intent router delegating to FAQ, recommendation, and ticketing agents.</li>
+                                <li>Built structured memory, state management, and failure recovery for long-running conversations.</li>
+                                <li>Instrumented evaluation and observability with LangFuse so quality is measured, not assumed.</li>
+                            </ul>
+                        </details>
+                        <p class="case-stack">LangGraph · LangChain · LangFuse</p>
+                    </article>
+
+                    <article class="case" data-cat="genai">
+                        <header>
+                            <p class="case-tag">Generative AI · SLM fine-tuning</p>
+                            <h3>Resume intelligence: CV parsing &amp; JD relevance scoring</h3>
+                        </header>
+                        <ul class="case-metrics">
+                            <li><strong>2×</strong> lower serving cost</li>
+                            <li><strong>86 / 83%</strong> parsing P / R</li>
+                            <li><strong>84 / 88%</strong> scoring P / R</li>
+                        </ul>
+                        <p><span class="label">Challenge</span> Replace a frontier-LLM system with self-hosted models to keep candidate data private, while holding quality and cutting cost.</p>
+                        <details>
+                            <summary>Approach &amp; outcome</summary>
+                            <ul>
+                                <li>Distilled two small language models (QLoRA/PEFT) from human-validated frontier-LLM labels.</li>
+                                <li><strong>Parsing:</strong> fine-tuned Qwen3-0.6B to extract structured CV fields.</li>
+                                <li><strong>Relevance:</strong> fine-tuned Qwen3-1.7B to score JD–resume fit with an explanation.</li>
+                                <li>Served with vLLM on AWS at half the cost of the previous system.</li>
+                            </ul>
+                        </details>
+                        <p class="case-stack">Qwen3 · QLoRA · PEFT · vLLM · AWS</p>
+                    </article>
+
+                    <article class="case" data-cat="cv genai">
+                        <header>
+                            <p class="case-tag">Generative Video · Computer Vision</p>
+                            <h3>Expression &amp; pose transfer: talking-head animation</h3>
+                        </header>
+                        <ul class="case-metrics">
+                            <li><strong>47%</strong> lower per-clip latency</li>
+                            <li><strong>170s → 90s</strong> per clip</li>
+                            <li><strong>14B</strong> model on 4 GPUs</li>
+                        </ul>
+                        <p><span class="label">Challenge</span> Turn a single image into a realistic talking video, fast enough to be a product rather than a demo.</p>
+                        <details>
+                            <summary>Approach &amp; outcome</summary>
+                            <ul>
+                                <li>Architected an end-to-end GPU pipeline: MediaPipe landmarks, face-swap, and Wan2.2-Animate diffusion conditioned on body pose and facial features.</li>
+                                <li>Earlier, trained a talking-head model (TS-Net) from scratch with DDP on 8 GPUs over ~10 hours of video.</li>
+                                <li>Deployed the 14B model with FSDP-sharded DiT/T5 and DeepSpeed Ulysses; generated at half frame rate and used RIFE interpolation to cut latency 47%.</li>
+                            </ul>
+                        </details>
+                        <p class="case-stack">Wan2.2-Animate · FSDP · DeepSpeed Ulysses · DDP · MediaPipe · RIFE</p>
+                    </article>
+
+                    <article class="case" data-cat="genai">
+                        <header>
+                            <p class="case-tag">Generative AI · RAG</p>
+                            <h3>Multimodal RAG &amp; NL2SQL enterprise assistant</h3>
+                        </header>
+                        <ul class="case-metrics">
+                            <li><strong>87%</strong> SQL execution accuracy</li>
+                            <li><strong>70%</strong> less manual SQL</li>
+                            <li><strong>92%</strong> recall@15 over ~1M chunks</li>
+                        </ul>
+                        <p><span class="label">Challenge</span> Let business users query structured data in plain language and search text, image, video, and audio knowledge in one place.</p>
+                        <details>
+                            <summary>Approach &amp; outcome</summary>
+                            <ul>
+                                <li>NL2SQL with schema linking, query validation, and self-correction loops.</li>
+                                <li>Multimodal RAG over text, images, video, and transcribed audio.</li>
+                                <li>Dense retrieval with metadata filtering and BGE-reranker-v2 on PGVector.</li>
+                            </ul>
+                        </details>
+                        <p class="case-stack">PGVector · BGE-reranker-v2 · PostgreSQL · LLMs</p>
+                    </article>
+
+                    <article class="case" data-cat="cv">
+                        <header>
+                            <p class="case-tag">Computer Vision · Privacy</p>
+                            <h3>Real-time document alignment &amp; ID masking</h3>
+                        </header>
+                        <ul class="case-metrics">
+                            <li><strong>99.5%</strong> recall on ID fields</li>
+                            <li><strong>4°</strong> orientation RMSE</li>
+                            <li><strong>&lt;200 ms</strong> end to end</li>
+                        </ul>
+                        <p><span class="label">Challenge</span> Correct document orientation and mask sensitive IDs in real time, where a single miss means PII leakage.</p>
+                        <details>
+                            <summary>Approach &amp; outcome</summary>
+                            <ul>
+                                <li>Designed a YOLOv8 + MobileNet + OpenCV pipeline for orientation correction and identity-field detection.</li>
+                                <li>Deliberately tuned for recall over precision to minimise PII exposure.</li>
+                                <li>Shipped as a production API under 200 ms end to end.</li>
+                            </ul>
+                        </details>
+                        <p class="case-stack">YOLOv8 · MobileNet · OpenCV</p>
+                    </article>
+
+                    <article class="case" data-cat="ml">
+                        <header>
+                            <p class="case-tag">Classical ML · MLOps</p>
+                            <h3>Automated forecasting pipeline with drift-triggered retraining</h3>
+                        </header>
+                        <ul class="case-metrics">
+                            <li><strong>0.90</strong> R²</li>
+                            <li><strong>Auto</strong> retraining on drift</li>
+                        </ul>
+                        <p><span class="label">Challenge</span> Forecast performance from geographic, census, and demographic signals, and keep the model accurate as the underlying data shifts.</p>
+                        <details>
+                            <summary>Approach &amp; outcome</summary>
+                            <ul>
+                                <li>Built an end-to-end pipeline on GCP: data in BigQuery, model training and deployment with AutoML.</li>
+                                <li>Joined geographic, census, demographic, and historical data into a single feature set.</li>
+                                <li>Added KS-test drift monitoring on incoming data that triggers automated retraining, with no manual babysitting.</li>
+                            </ul>
+                        </details>
+                        <p class="case-stack">GCP AutoML · BigQuery · KS-test drift monitoring</p>
+                    </article>
+
+                    <article class="case" data-cat="ml">
+                        <header>
+                            <p class="case-tag">Marketing · Survival Analysis</p>
+                            <h3>Email send-time optimization</h3>
+                        </header>
+                        <ul class="case-metrics">
+                            <li><strong>+1.5%</strong> open rate</li>
+                        </ul>
+                        <p><span class="label">Challenge</span> Decide when to send each email so that it lands when the recipient is most likely to open it.</p>
+                        <details>
+                            <summary>Approach &amp; outcome</summary>
+                            <ul>
+                                <li>Framed engagement as a time-to-event problem rather than a plain classification task.</li>
+                                <li>Modelled time-to-open with a Cox proportional-hazards model.</li>
+                                <li>Used the fitted hazard to choose send times, lifting open rate by 1.5%.</li>
+                            </ul>
+                        </details>
+                        <p class="case-stack">Survival analysis · Cox PH · Python</p>
+                    </article>
+
+                    <article class="case" data-cat="cv">
+                        <header>
+                            <p class="case-tag">Computer Vision · Video</p>
+                            <h3>Real-time multi-object tracking</h3>
+                        </header>
+                        <ul class="case-metrics">
+                            <li><strong>20 FPS</strong> on video streams</li>
+                            <li><strong>Persistent</strong> identities</li>
+                        </ul>
+                        <p><span class="label">Challenge</span> Detect and follow multiple objects across live video, keeping each object's identity consistent from frame to frame.</p>
+                        <details>
+                            <summary>Approach &amp; outcome</summary>
+                            <ul>
+                                <li>Used YOLO for per-frame object detection.</li>
+                                <li>Paired it with DeepSORT for identity-persistent tracking across frames.</li>
+                                <li>Ran the combined pipeline at 20 FPS across video streams.</li>
+                            </ul>
+                        </details>
+                        <p class="case-stack">YOLO · DeepSORT · OpenCV</p>
+                    </article>
+
+                    <article class="case" data-cat="ml">
+                        <header>
+                            <p class="case-tag">Citrix · Anomaly Detection</p>
+                            <h3>Anomaly detection on server telemetry</h3>
+                        </header>
+                        <ul class="case-metrics">
+                            <li><strong>30%</strong> fewer false positives</li>
+                        </ul>
+                        <p><span class="label">Challenge</span> Flag genuinely abnormal server behaviour in Citrix Analytics without flooding operators with false alarms.</p>
+                        <details>
+                            <summary>Approach &amp; outcome</summary>
+                            <ul>
+                                <li>Built Isolation Forest models on server response telemetry.</li>
+                                <li>Brought false positives down by 30%, so alerts were worth acting on.</li>
+                            </ul>
+                        </details>
+                        <p class="case-stack">Isolation Forest · Python</p>
+                    </article>
+
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-3.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
+            </div>
+        </section>
+
+        <!-- Expertise & advisory -->
+        <section class="section section-dark" id="expertise">
+            <div class="container">
+                <p class="kicker">Expertise &amp; advisory</p>
+                <h2>Where I can help</h2>
+                <p class="section-intro">
+                    Four areas where I've shipped ML to production. I work in them as a principal-level lead or as an advisor
+                    to founders, CTOs, and data teams, and every engagement is scoped around a measurable outcome.
+                </p>
+
+                <div class="cards-4">
+                    <article class="card card-dark">
+                        <span class="card-index">01</span>
+                        <h3>LLMs &amp; Agents</h3>
+                        <p>Multi-agent orchestration, RAG over millions of chunks, NL2SQL, and QLoRA fine-tuning that replaces frontier APIs with self-hosted SLMs.</p>
+                        <p class="card-proof">70% unescalated support · 2× cheaper serving · 87% NL2SQL accuracy</p>
+                        <p class="card-meta">LangGraph · LangFuse · vLLM · PGVector · QLoRA/PEFT</p>
+                    </article>
+                    <article class="card card-dark">
+                        <span class="card-index">02</span>
+                        <h3>Generative Video &amp; Vision</h3>
+                        <p>Talking-head and pose-transfer pipelines on 14B diffusion models, plus real-time detection, tracking, and document understanding.</p>
+                        <p class="card-proof">47% faster diffusion video · 99.5% PII recall</p>
+                        <p class="card-meta">PyTorch · Wan2.2 · FSDP · DeepSpeed Ulysses · YOLO · MediaPipe</p>
+                    </article>
+                    <article class="card card-dark">
+                        <span class="card-index">03</span>
+                        <h3>Ad Tech &amp; Decisioning</h3>
+                        <p>Real-time floor pricing and bid filtering under millisecond budgets, validated with closed-loop A/B testing.</p>
+                        <p class="card-proof">10%+ revenue · 30% infra savings at 50B+ req/day</p>
+                        <p class="card-meta">CatBoost · Multi-armed bandits · A/B testing · Survival analysis</p>
+                    </article>
+                    <article class="card card-dark">
+                        <span class="card-index">04</span>
+                        <h3>ML Platforms &amp; Serving</h3>
+                        <p>Multi-GPU training and inference, drift monitoring with automated retraining, and cost-aware serving on AWS and GCP.</p>
+                        <p class="card-proof">14B model on 4 GPUs · auto-retraining on drift</p>
+                        <p class="card-meta">DDP · ONNX · Docker · PySpark · AWS · GCP · RunPod</p>
+                    </article>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-4.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
+
+                <h3 class="subhead">Ways to engage</h3>
+                <ul class="engage">
+                    <li><h4>Strategy &amp; feasibility</h4><p>Is this an LLM problem, a classical ML problem, or not an ML problem at all? A clear build/buy/skip call with cost and accuracy estimates.</p></li>
+                    <li><h4>Architecture &amp; build</h4><p>Hands-on design and delivery, with evaluation and observability built in from day one rather than bolted on after launch.</p></li>
+                    <li><h4>Cost &amp; latency reduction</h4><p>Distilling frontier APIs into self-hosted models, multi-GPU inference, and serving optimizations for systems already in production.</p></li>
+                    <li><h4>Reviews &amp; mentoring</h4><p>Architecture reviews, experimentation design, and coaching so your team can run the system confidently after I step back.</p></li>
+                </ul>
+
+                <ol class="process">
+                    <li><span>1</span><div><h4>Diagnose</h4><p>Business goal, data, constraints, and the metric that defines success.</p></div></li>
+                    <li><span>2</span><div><h4>Prototype</h4><p>A fast baseline against an honest evaluation set before anyone scales anything.</p></div></li>
+                    <li><span>3</span><div><h4>Productionize</h4><p>Latency, cost, monitoring, and A/B validation in the real environment.</p></div></li>
+                    <li><span>4</span><div><h4>Hand over</h4><p>Documentation, dashboards, and a team that owns it.</p></div></li>
+                </ol>
+
+                <div class="cta-row">
+                    <a href="mailto:alakhsharmacs@gmail.com?subject=Advisory%20enquiry" class="btn btn-light">Discuss an engagement</a>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-5.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="section" id="experience">
+            <div class="container two-col">
+                <div>
+                    <p class="kicker">Experience</p>
+                    <h2>From backend engineering to principal ML.</h2>
+                    <a href="Alakh_Sharma_Resume.pdf" class="btn btn-ghost js-resume" target="_blank" rel="noopener">View full CV</a>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-6.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
+                <ol class="timeline">
+                    <li>
+                        <p class="when">Oct 2019 – Present · Pune</p>
+                        <h3>Principal Software Engineer – Data Science</h3>
+                        <p class="org">Talentica Software Pvt. Ltd.</p>
+                        <p>Lead a team of five data scientists delivering production ML for product companies across ad tech, HR tech, and generative media.</p>
+                        <ul>
+                            <li>Real-time bidding floor pricing and bid filtering at 50B+ requests/day (10%+ revenue, 30% infra savings).</li>
+                            <li>Multi-agent LangGraph support platform for 500K users/month (70% unescalated resolution).</li>
+                            <li>Self-hosted Qwen3 SLMs replacing a frontier LLM at 2× lower cost.</li>
+                            <li>Distributed 14B diffusion-video inference with 47% latency reduction.</li>
+                            <li>Multimodal RAG, NL2SQL, document vision, forecasting, and tracking systems.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="when">Jul 2018 – Oct 2019 · Bangalore</p>
+                        <h3>Software Engineer 2</h3>
+                        <p class="org">Citrix R&amp;D India Pvt. Ltd.</p>
+                        <ul>
+                            <li>Built Isolation Forest anomaly detection on server response telemetry for Citrix Analytics, cutting false positives by 30%.</li>
+                            <li>Shipped NetScaler features, including auto-scale service group support and IPset support for GSLB virtual servers.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="when">Jul 2016 – Jun 2018 · Bangalore</p>
+                        <h3>M.Tech, Computer Science &amp; Automation (Machine Learning)</h3>
+                        <p class="org">Indian Institute of Science (IISc)</p>
+                        <ul>
+                            <li>Studied multi-class imbalance: benchmarked SMOTE resampling against cost-sensitive learning on macro-F1.</li>
+                            <li>Implemented hard-debiasing (Bolukbasi et al.) to reduce gender bias in word embeddings.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="when">Jul 2013 – Jul 2015 · Jaipur</p>
+                        <h3>Software Engineer</h3>
+                        <p class="org">Soft Solutions</p>
+                        <ul>
+                            <li>Led backend development (Java, MySQL) and on-premise deployment of school and inventory management systems for small businesses.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="when">Jul 2009 – Jun 2013 · Kota</p>
+                        <h3>B.Tech, Computer Science Engineering</h3>
+                        <p class="org">Rajasthan Technical University</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section section-alt" id="skills">
+            <div class="container">
+                <p class="kicker">Toolkit</p>
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div><h3>LLMs</h3><p>Fine-tuning (QLoRA, PEFT), LLM distillation · familiar with RLHF, PPO, DPO, GRPO</p></div>
+                    <div><h3>Agentic AI</h3><p>RAG architectures, multi-agent systems, LangChain, LangGraph, LangFuse</p></div>
+                    <div><h3>Machine Learning</h3><p>CatBoost, XGBoost, multi-armed bandits, A/B testing, survival analysis, statistics</p></div>
+                    <div><h3>Deep Learning &amp; CV</h3><p>PyTorch, Transformers, diffusion models, YOLO, MediaPipe, OpenCV</p></div>
+                    <div><h3>Distributed &amp; Serving</h3><p>DDP, FSDP, DeepSpeed Ulysses, multi-GPU inference, vLLM, ONNX</p></div>
+                    <div><h3>Cloud &amp; Data</h3><p>AWS, GCP (AutoML, BigQuery), RunPod, Docker, PySpark, PostgreSQL, PGVector</p></div>
+                    <div><h3>Languages</h3><p>Python, SQL, Java</p></div>
+                    <div><h3>Leadership</h3><p>Leading a 5-person DS team, technical direction, stakeholder communication, mentoring</p></div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Writing -->
+        <section class="section" id="writing">
+            <div class="container">
+                <p class="kicker">Writing</p>
+                <h2>Published articles</h2>
+                <ul class="articles">
+                    <li>
+                        <a href="https://www.kdnuggets.com/beyond-bots-rethinking-ai-support-with-a-hybrid-ai-architecture" target="_blank" rel="noopener">
+                            <span class="pub">KDnuggets</span>
+                            <span class="title">Beyond Bots: Rethinking AI Support with a Hybrid AI Architecture</span>
+                            <span class="arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.analyticsinsight.net/artificial-intelligence/optimizing-ai-performance-evaluating-contextual-input-vs-fine-tuning-in-llms" target="_blank" rel="noopener">
+                            <span class="pub">Analytics Insight</span>
+                            <span class="title">Optimizing AI Performance: Contextual Input vs. Fine-Tuning in LLMs</span>
+                            <span class="arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://venturebeat.com/technology/adopting-automl-lets-do-a-reality-check" target="_blank" rel="noopener">
+                            <span class="pub">VentureBeat</span>
+                            <span class="title">Adopting AutoML: Let's Do a Reality Check</span>
+                            <span class="arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.kdnuggets.com/2022/05/operationalizing-machine-learning-poc-production.html" target="_blank" rel="noopener">
+                            <span class="pub">KDnuggets</span>
+                            <span class="title">Operationalizing Machine Learning from PoC to Production</span>
+                            <span class="arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.talentica.com/blogs/ai-for-recruiting-how-ai-can-help-recruiters-boost-productivity/" target="_blank" rel="noopener">
+                            <span class="pub">Talentica Blog</span>
+                            <span class="title">AI for Recruiting: How AI Can Help Recruiters Boost Productivity</span>
+                            <span class="arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Testimonial -->
+        <section class="section section-alt" id="testimonial">
+            <div class="container">
+                <p class="kicker">What colleagues say</p>
+                <h2>Colleague references</h2>
+                <div class="quotes">
+                    <blockquote class="quote">
+                        <p>“Alakh has a very good hold on Machine Learning concepts, and has helped me many times. He is a fast learner, quickly grasping new developments in the field. He keeps reading about new developments in the field and is, hence, updated on the state of the art techniques. He has also been published in various respected publications.”</p>
+                        <footer>
+                            <span class="avatar" aria-hidden="true">AM</span>
+                            <div><strong>Aayush Malviya</strong><span>Data Engineer · Big Data · Gen AI</span><span>LinkedIn recommendation, Apr 2025</span></div>
+                        </footer>
+                    </blockquote>
+                    <blockquote class="quote">
+                        <p>“Alakh's proficiency in technology, especially in data science and machine learning, is truly commendable. His passion for learning and problem-solving is inspiring, making him an invaluable asset to any team.”</p>
+                        <footer>
+                            <img src="img/gaurav_profile.jpeg" alt="" width="56" height="56">
+                            <div><strong>Gaurav Nandode</strong><span>Data Scientist</span></div>
+                        </footer>
+                    </blockquote>
+                </div>
+                <p class="quotes-more"><a href="https://www.linkedin.com/in/alakhsharma/details/recommendations/" target="_blank" rel="noopener">Read all recommendations on LinkedIn →</a></p>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="container narrow center">
+                <p class="kicker">Contact</p>
+                <h2>Have a hard ML problem? Let's talk.</h2>
+                <p class="section-intro">
+                    For principal or leadership roles in data science, advisory engagements, or speaking and writing,
+                    email is the fastest way to reach me.
+                </p>
+                <div class="contact-actions">
+                    <a href="mailto:alakhsharmacs@gmail.com" class="btn btn-primary">alakhsharmacs@gmail.com</a>
+                    <a href="https://linkedin.com/in/alakhsharma" class="btn btn-ghost" target="_blank" rel="noopener">Connect on LinkedIn</a>
+                    <a href="https://github.com/alakhsharmaa" class="btn btn-ghost" target="_blank" rel="noopener">GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; <span id="year">2026</span> Alakh Sharma · Pune, India</p>
+            <a href="#top">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <!-- Case-study viewer -->
+    <dialog class="case-modal" id="case-modal" aria-labelledby="case-modal-title">
+        <button type="button" class="resume-modal-close" aria-label="Close case study" autofocus>×</button>
+        <div class="case-modal-body"></div>
+    </dialog>
+
+    <!-- Resume viewer -->
+    <dialog class="resume-modal" id="resume-modal" aria-labelledby="resume-modal-title">
+        <div class="resume-modal-bar">
+            <h2 id="resume-modal-title">Alakh Sharma — CV</h2>
+            <div class="resume-modal-actions">
+                <a href="Alakh_Sharma_Resume.pdf" class="btn btn-primary btn-sm" download>Download PDF</a>
+                <a href="Alakh_Sharma_Resume.pdf" class="btn btn-ghost btn-sm" target="_blank" rel="noopener">Open in new tab</a>
+                <button type="button" class="resume-modal-close" aria-label="Close CV viewer" autofocus>×</button>
             </div>
         </div>
-    </div> -->
-    <!-- Portfolio End -->
+        <iframe title="Alakh Sharma CV" data-src="Alakh_Sharma_Resume.pdf#view=FitH"></iframe>
+    </dialog>
 
-
-    <!-- Testimonial Start -->
-    <div class="container-fluid py-5" id="testimonial">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Review</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Collegues Say</h1>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="text-center">
-                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-light mb-4">I am pleased to provide a heartfelt testimonial for my friend, Alakh Sharma. Alakh's proficiency in technology, especially in data science and machine learning, is truly commendable. His passion for learning and problem-solving is inspiring, making him an invaluable asset to any team. I wholeheartedly endorse Alakh and his exceptional abilities in the field of technology.</h4>
-                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/gaurav_profile.jpeg" style="width: 80px; height: 80px;">
-                            <h5 class="font-weight-bold m-0">Gaurav Nandode</h5>
-                            <span>Data Scientist</span>
-                        </div>
-                        <!-- <div class="text-center">
-                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
-                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
-                            <h5 class="font-weight-bold m-0">Client Name</h5>
-                            <span>Profession</span>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
-
-
-    <!-- Blog Start -->
-    <div class="container-fluid pt-5" id="blog">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Blog</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Latest Blog</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/auto_blog.jpeg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">13</h4>
-                            <small class="text-white text-uppercase">Jan 2023</small>
-                        </div>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Adopting AutoML: Let’s do a reality check</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="https://venturebeat.com/ai/adopting-automl-lets-do-a-reality-check/">Read More</a>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100 h-100" src="img/blog-2.jpg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">20</h4>
-                            <small class="text-white text-uppercase">May, 2022</small>
-                        </div>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Operationalizing Machine Learning from PoC to Production</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="https://www.kdnuggets.com/2022/05/operationalizing-machine-learning-poc-production.html">Read More</a>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100 h-100" src="img/AI-for-recruiting.png" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">01</h4>
-                            <small class="text-white text-uppercase">Jan</small>
-                        </div>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">AI for recruiting: How AI can help recruiters boost productivity?</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="https://www.talentica.com/blogs/ai-for-recruiting-how-ai-can-help-recruiters-boost-productivity/">Read More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Blog End -->
-
-
-    <!-- Contact Start -->
-    <div class="container-fluid py-5" id="contact">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="contact-form text-center">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="form-row">
-                                <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
-                                        required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group col-sm-6">
-                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
-                                        required="required" data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
-                                    required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
-                                    required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
-                                    Message</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Contact End -->
-
-
-    <!-- Footer Start -->
-    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
-        <div class="container text-center py-5">
-            <div class="d-flex justify-content-center mb-4">
-                <!-- <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a> -->
-                <!-- <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a> -->
-                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/alakhsharma/"><i class="fab fa-linkedin-in"></i></a>
-                <!-- <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a> -->
-            </div>
-            <div class="d-flex justify-content-center mb-3">
-                <a class="text-white" href="#">Privacy</a>
-                <span class="px-3">|</span>
-                <a class="text-white" href="#">Terms</a>
-                <span class="px-3">|</span>
-                <a class="text-white" href="#">FAQs</a>
-                <span class="px-3">|</span>
-                <a class="text-white" href="#">Help</a>
-            </div>
-            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Alakh Sharma</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="">Alakh Sharma</a>
-            </p>
-        </div>
-    </div>
-    <!-- Footer End -->
-
-    <!-- Scroll to Bottom -->
-    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/typed/typed.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="js/site.js"></script>
 </body>
-
 </html>
