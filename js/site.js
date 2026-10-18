@@ -224,6 +224,9 @@
     if (caseModal && caseGrid && hasDialog) {
         var caseBody = caseModal.querySelector(".case-modal-body");
         var openCase = setupModal(caseModal);
+        caseModal.addEventListener("close", function () {
+            caseBody.querySelectorAll("video").forEach(function (v) { v.pause(); });
+        });
         caseGrid.classList.add("is-tiled");
         caseGrid.querySelectorAll(".case").forEach(function (tile) {
             tile.setAttribute("tabindex", "0");
@@ -235,6 +238,22 @@
                 caseBody.innerHTML = tile.innerHTML;
                 caseBody.querySelector("h3").id = "case-modal-title";
                 caseBody.querySelectorAll("details").forEach(function (d) { d.open = true; });
+                // Swap a preview image for its video (loaded only when the pop-up opens)
+                caseBody.querySelectorAll(".case-media[data-video]").forEach(function (fig) {
+                    var img = fig.querySelector("img");
+                    var video = document.createElement("video");
+                    video.src = fig.dataset.video;
+                    video.poster = img.src;
+                    video.setAttribute("aria-label", img.alt);
+                    video.muted = true;
+                    video.loop = true;
+                    video.controls = true;
+                    video.playsInline = true;
+                    video.autoplay = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+                    fig.replaceChild(video, img);
+                    var badge = fig.querySelector(".play-badge");
+                    if (badge) badge.remove();
+                });
                 caseModal.scrollTop = 0;
                 openCase(tile);
             }
